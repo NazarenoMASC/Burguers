@@ -1,0 +1,192 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+h1 h2 h3 h4 h5 h6 {
+  font-family: "Noto Serif", serif;
+}
+section {
+  border: solid 2px black;
+}
+
+.fondoHeader-Y-Footer {
+  background-color: #4895ef;
+}
+
+.logoHeader-Y-Footer {
+  height: 20vh;
+  width: 15vw;
+}
+.posicionMenu {
+  margin: 0%;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+ul a {
+  color: white;
+  text-decoration: none;
+}
+.flexHeader { 
+ display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+padding-right: 10%;
+}
+.flexHeaderDiv { 
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.posicionMenu li {
+  display: inline-block;
+  list-style-type: none;
+  padding-left: 2rem;
+}
+.imagenPrincipal {
+  margin: 0px;
+  padding: 0px;
+  height: 80vh;
+  border: none;
+
+  width: 100%;
+}
+
+.SobreNosotros {
+  text-align: center;
+  font-weight: 800;
+  line-height: 5rem;
+}
+.parrafoSobreNosotros {
+  font-weight: 400;
+  text-align: center;
+  font-size: 100%;
+  margin-bottom: 2%;
+}
+
+.fondoSobreNosotros {
+  background-image: url("../images/fondosobrenosotros.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  overflow: auto;
+}
+.fondoTitle {
+  margin: 0%;
+  padding: 10% 5%;
+  font-weight: 800;
+}
+.fondoParrafo {
+  margin: 0%;
+  font-size: 150%;
+  text-align: center;
+  font-weight: 400;
+  line-height: 5rem;
+}
+.menuIndex {
+  padding: 2%;
+}
+.flexMenu { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+
+
+}
+aside {
+  padding: 2%;
+  width: 25vw;
+}
+
+.imagenAside {
+  width: 15vw;
+  height: 10vh;
+}
+aside p {
+  border-style: solid;
+  height: 10%;
+  width: 65%;
+}
+.flexBoton { display: flex;
+flex-wrap: wrap;
+justify-content: center;}
+
+.flexLocales {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2%;
+  margin-bottom: 5%;
+ }
+
+.formulario {
+  padding: 1%;
+  margin: 1%;
+  border: 0px;
+  text-align: center;
+}
+.formulario form {  
+  display: grid;
+  grid-template-columns: repeat( 2, 30rem);
+  grid-auto-rows: 10rem;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  padding-left: 20%;
+}
+.flexDivForm { display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.botonEnviarFormulario { 
+   margin-left: 15%;
+ }
+ .botonEnviarFormulario input { margin-right: 3%;}
+.formulario label {
+  display: block;
+  margin-left: 1%;
+  padding-bottom: 2%;
+}
+.imgFooter {
+  height: 7vh;
+}
+
+.flexFooter { display: flex;
+  justify-content:space-between
+}
+.flexItemFooter { padding-right: 10%;
+  padding-left: 10%;
+  margin-right: 30%;
+  display: flex;
+
+  align-items: center;
+ justify-content: flex-start;
+}
+.marginItemFooter {margin-left: 10%;
+}
+@media screen and (max-width: 1085px) { 
+  .flexHeader { display: flex;
+ flex-wrap:nowrap;
+ padding-right: 4%;
+
+ }
+ .flexHeaderDiv { display:flex; 
+  flex-wrap: nowrap;
+  }
+}
+@media screen and (max-width:1005px) {
+  .logoHeader-Y-Footer { display: none;}
+.marginItemFooter {margin-left: 20%;}} 
+
+@media screen and (max-width: 847px) {
+  .fondoHeader-Y-Footer { padding: 0%;}
+}
