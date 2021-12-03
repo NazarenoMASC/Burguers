@@ -60,6 +60,7 @@ padding-right: 10%;
   text-align: center;
   font-weight: 800;
   line-height: 5rem;
+  padding-top: 2%;
 }
 .parrafoSobreNosotros {
   font-weight: 400;
@@ -91,14 +92,17 @@ padding-right: 10%;
   line-height: 5rem;
 }
 .menuIndex {
-  padding: 2%;
+  padding: 4%;
+  
 }
 .flexMenu { 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
   padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-bottom: 9rem;
+  
 
 
 }
@@ -124,8 +128,8 @@ justify-content: center;}
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 2%;
-  margin-bottom: 5%;
+  padding-top: 4%;
+  margin-bottom: 10%;
  }
 
 .formulario {
