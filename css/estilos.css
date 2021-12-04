@@ -1,7 +1,8 @@
-*{
+body {
   padding: 0;
   margin: 0;
   font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
 }
 h1 h2 h3 h4 h5 h6 {
   font-family: "Noto Serif", serif;
@@ -29,14 +30,14 @@ ul a {
   color: white;
   text-decoration: none;
 }
-.flexHeader { 
- display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-align-items: center;
-padding-right: 10%;
+.flexHeader {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10%;
 }
-.flexHeaderDiv { 
+.flexHeaderDiv {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -93,36 +94,28 @@ padding-right: 10%;
 }
 .menuIndex {
   padding: 4%;
-  
 }
-.flexMenu { 
+.flexMenu {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding-top: 7rem;
   padding-bottom: 9rem;
-  
-
-
 }
-aside {
-  padding: 2%;
-  width: 25vw;
-}
+
 
 .imagenAside {
   width: 15vw;
-  height: 10vh;
+  height: 20vh;
+  
 }
-aside p {
-  border-style: solid;
-  height: 10%;
-  width: 65%;
+
+.flexBoton {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.flexBoton { display: flex;
-flex-wrap: wrap;
-justify-content: center;}
 
 .flexLocales {
   display: flex;
@@ -130,7 +123,7 @@ justify-content: center;}
   justify-content: space-around;
   padding-top: 4%;
   margin-bottom: 10%;
- }
+}
 
 .formulario {
   padding: 1%;
@@ -138,59 +131,97 @@ justify-content: center;}
   border: 0px;
   text-align: center;
 }
-.formulario form {  
+.formulario form {
   display: grid;
-  grid-template-columns: repeat( 2, 30rem);
+  grid-template-columns: repeat(2, 30rem);
   grid-auto-rows: 10rem;
   column-gap: 2rem;
   row-gap: 2rem;
   padding-left: 20%;
 }
-.flexDivForm { display: flex;
+.flexDivForm {
+  display: flex;
   flex-direction: column;
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-.botonEnviarFormulario { 
-   margin-left: 15%;
- }
- .botonEnviarFormulario input { margin-right: 3%;}
+.botonEnviarFormulario {
+  margin-left: 15%;
+}
+.botonEnviarFormulario input {
+  margin-right: 3%;
+}
 .formulario label {
   display: block;
   margin-left: 1%;
   padding-bottom: 2%;
 }
-.imgFooter {
-  height: 7vh;
-}
 
-.flexFooter { display: flex;
-  justify-content:space-between
-}
-.flexItemFooter { padding-right: 10%;
-  padding-left: 10%;
-  margin-right: 30%;
+.flexFooter {
   display: flex;
-
+  justify-content: space-between;
+}
+.redes-container {
+  display: flex;
   align-items: center;
- justify-content: flex-start;
+  justify-content: center;
+  
+} 
+.redes-container ul { padding: 0%;
+margin: 0%;}
+.redes-container ul li {
+  display: inline-block;
+  margin-right:10px;
+ width: 5rem;
+  height: 100%;
+ text-align: center;
+  
 }
-.marginItemFooter {margin-left: 10%;
-}
-@media screen and (max-width: 1085px) { 
-  .flexHeader { display: flex;
- flex-wrap:nowrap;
- padding-right: 4%;
 
- }
- .flexHeaderDiv { display:flex; 
-  flex-wrap: nowrap;
+.redes-container ul li a {
+  display: block;
+  padding: 0 10px;
+  background-color: #333;
+  color: #fff;
+  
+  font-size: 2rem;
+  transition: 0.2s;
+}
+
+.blur:hover {
+  filter: blur(1px);
+}
+.redes-container ul li:hover {
+  transform: translateY (-3px) scale(1.05);
+  filter: none;
+}
+.redes-container ul li .facebook { background-color: #3b5999;}
+.redes-container ul li .instagram { background-color: #e4405f;}
+.redes-container ul li .twitter { background-color: #55acee;}
+
+
+@media screen and (max-width: 1085px) {
+  .flexHeader {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-right: 4%;
+  }
+  .flexHeaderDiv {
+    display: flex;
+    flex-wrap: nowrap;
   }
 }
-@media screen and (max-width:1005px) {
-  .logoHeader-Y-Footer { display: none;}
-.marginItemFooter {margin-left: 20%;}} 
+@media screen and (max-width: 1005px) {
+  .logoHeader-Y-Footer {
+    display: none;
+  }
+  .marginItemFooter {
+    margin-left: 20%;
+  }
+}
 
 @media screen and (max-width: 847px) {
-  .fondoHeader-Y-Footer { padding: 0%;}
+  .fondoHeader-Y-Footer {
+    padding: 0%;
+  }
 }
