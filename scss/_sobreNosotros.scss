@@ -1,0 +1,23 @@
+.SobreNosotros {
+    text-align: center;
+    font-weight: 800;
+    line-height: 5rem;
+    padding-top: 2%;
+  }
+  .parrafoSobreNosotros {
+    font-weight: 400;
+    text-align: center;
+    font-size: 100%;
+    margin-bottom: 2%;
+  }
+  
+  .fondoSobreNosotros {
+    background-image: url("../images/fondosobrenosotros.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    overflow: auto;
+  }

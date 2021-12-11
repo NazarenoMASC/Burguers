@@ -1,0 +1,31 @@
+.formulario {
+    padding: 1%;
+    margin: 1%;
+    border: 0px;
+    text-align: center;
+  }
+  .formulario form {
+    display: grid;
+    grid-template-columns: repeat(2, 30rem);
+    grid-auto-rows: 10rem;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    padding-left: 20%;
+  }
+  .flexDivForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .botonEnviarFormulario {
+    margin-left: 15%;
+  }
+  .botonEnviarFormulario input {
+    margin-right: 3%;
+  }
+  .formulario label {
+    display: block;
+    margin-left: 1%;
+    padding-bottom: 2%;
+  }
