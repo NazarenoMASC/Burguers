@@ -1,26 +1,46 @@
+@media screen and (max-width: 1277px) {
+  .formulario {
+    padding: 0%;
+  }
+  .formulario form {
+    padding: 0%;
+  }
+  .imagenAside { width: 20vw; 
+   }
+}
 
-@media screen and (max-width: 1085px) {
-    .flexHeader {
-      display: flex;
-      flex-wrap: nowrap;
-      padding-right: 4%;
-    }
-    .flexHeaderDiv {
-      display: flex;
-      flex-wrap: nowrap;
-    }
+@media screen and (max-width: 1015px) {
+  body {
+    width: 100%;
   }
-  @media screen and (max-width: 1005px) {
-    .logoHeader-Y-Footer {
-      display: none;
-    }
-    .marginItemFooter {
-      margin-left: 20%;
-    }
+  .flexHeader {
+    padding-right: 10%;
   }
-  
-  @media screen and (max-width: 847px) {
-    .fondoHeader-Y-Footer {
-      padding: 0%;
-    }
+
+  .flexDivForm {
+    width: 30vw;
   }
+}
+@media screen and (max-width: 775px) {
+  .flexDivForm {
+    width: 100%;
+  }
+  .formulario form {
+    display: grid;
+    grid-template-columns: repeat(2, 15rem);
+    margin-bottom: 2%;
+  }
+  .botonEnviarFormulario input {
+    margin-bottom: 10px;
+  }
+.menuIndex div article { padding-bottom: 15%;}
+.imagenAside { width: 80%;
+padding-left: 30px;}
+}
+
+@media screen and (max-width: 541px) {
+  .formulario form {
+    display: grid;
+    grid-template-columns: repeat(1, 20rem);
+  }
+}
