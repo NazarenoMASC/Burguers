@@ -20,6 +20,7 @@
   .flexDivForm {
     width: 30vw;
   }
+  .imagenPrincipal { height: 50vh;}
 }
 @media screen and (max-width: 775px) {
   .flexDivForm {
@@ -43,4 +44,5 @@ padding-left: 30px;}
     display: grid;
     grid-template-columns: repeat(1, 20rem);
   }
+  .imagenPrincipal { height: 30vh; }
 }

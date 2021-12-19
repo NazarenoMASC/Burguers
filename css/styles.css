@@ -208,7 +208,9 @@ section {
   .flexHeader {
     padding-right: 10%; }
   .flexDivForm {
-    width: 30vw; } }
+    width: 30vw; }
+  .imagenPrincipal {
+    height: 50vh; } }
 
 @media screen and (max-width: 775px) {
   .flexDivForm {
@@ -228,4 +230,6 @@ section {
 @media screen and (max-width: 541px) {
   .formulario form {
     display: grid;
-    grid-template-columns: repeat(1, 20rem); } }
+    grid-template-columns: repeat(1, 20rem); }
+  .imagenPrincipal {
+    height: 30vh; } }
