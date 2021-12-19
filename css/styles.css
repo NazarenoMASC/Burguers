@@ -64,20 +64,55 @@ section {
   font-weight: 400;
   line-height: 5rem; }
 
-.menuIndex {
-  padding: 4%; }
+.containerMenu {
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(147deg, #fe8a39cc 0%, #fd3838 74%);
+  font-family: "Noto Serif", serif;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  border: none; }
 
-.flexMenu {
+.portadaMenu, .menuBurgers h4 {
+  background: black; }
+
+.portadaMenu div h2, .menuBurgers h4 div h2 {
+  font-size: 10rem;
+  font-weight: bolder; }
+
+.portadaMenu img, .menuBurgers h4 img {
+  width: 30vw;
+  height: 30vh; }
+
+.portadaMenu div h3, .menuBurgers h4 div h3 {
+  font-size: 5rem;
+  font-weight: bolder;
+  color: #fa6800cc;
+  transform: translate(80px) translateY(70px); }
+
+.menuBurgers {
+  padding: 5%; }
+
+.menuBurgers h4 {
+  font-size: 3rem;
+  font-weight: bolder; }
+
+.menuEspecial {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 7rem;
-  padding-bottom: 9rem; }
+  flex-direction: column;
+  justify-content: space-between; }
 
-.imagenAside {
-  width: 15vw;
-  height: 20vh; }
+.menuEspecial div img {
+  width: 20rem; }
+
+.menuEspecial div:first-child {
+  height: 15rem;
+  background: white;
+  border-start-start-radius: 90px;
+  border-end-start-radius: 90px; }
 
 .flexLocales {
   display: flex;

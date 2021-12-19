@@ -1,18 +1,66 @@
-.menuIndex {
-    padding: 4%;
-  }
-  .flexMenu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 7rem;
-    padding-bottom: 9rem;
-  }
+$fondo: linear-gradient(147deg, #fe8a39cc 0%, #fd3838 74%);
+$color: #fa6800cc;
+.containerMenu {
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  height: 100%;
+  width: 100%;
+  background: $fondo;
+  font-family: "Noto Serif", serif;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  border: none;
   
+}
+ @mixin font-size-weight ($size, $weight) { 
+   font-size: $size;
+   font-weight: $weight;
+   
+ }
+.portadaMenu { 
+  background: rgb(0, 0, 0);
+}
+
+.portadaMenu div h2 {
+@include font-size-weight(10rem, bolder);
+}
+
+.portadaMenu img {
+  width: 30vw;
+  height: 30vh;
+}
+
+.portadaMenu div h3 {
+ @include font-size-weight(5rem, bolder );
+  color: $color;
+  transform: translate(80px) translateY(70px);
+}
+
+.menuBurgers {
   
-  .imagenAside {
-    width: 15vw;
-    height: 20vh;
-    
-  }
+  padding: 5%; 
+  
+}
+
+.menuBurgers h4 { 
+  @extend .portadaMenu;
+@include font-size-weight(3rem, bolder)
+  
+}
+
+.menuEspecial {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menuEspecial div img {
+  width: 20rem;
+}
+.menuEspecial div:first-child {
+  height: 15rem;
+  background: white;
+  border-start-start-radius: 90px;
+  border-end-start-radius: 90px;
+}
