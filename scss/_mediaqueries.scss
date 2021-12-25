@@ -1,3 +1,18 @@
+@media screen and (max-width: 1400px) {
+  .portadaMenu div h2 {
+    font-size: 7rem;
+  }
+  .portadaMenu div h3 { font-size: 3rem;
+
+
+  } 
+  .fondoSobreNosotros {
+    height:100vh;
+    font-weight: bolder;
+    overflow: hidden;
+  }
+}
+
 @media screen and (max-width: 1277px) {
   .formulario {
     padding: 0%;
@@ -5,14 +20,20 @@
   .formulario form {
     padding: 0%;
   }
-  .imagenAside { width: 20vw; 
-   }
+  .imagenAside {
+    width: 20vw;
+  }
+  .formulario {
+    padding: 5%;
+  }
 }
 
-@media screen and (max-width: 1015px) {
+@media screen and (max-width: 1016px) {
   body {
     width: 100%;
   }
+ 
+
   .flexHeader {
     padding-right: 10%;
   }
@@ -20,7 +41,38 @@
   .flexDivForm {
     width: 30vw;
   }
-  .imagenPrincipal { height: 50vh;}
+  .imagenPrincipal {
+    height: 50vh;
+  }
+  .container-menu-take {
+    display: flex;
+    flex-direction: column;
+
+    margin: 2% 4%;
+  }
+  .logoHeader-Y-Footer {
+    height: 15vh;
+  }
+  .formulario {
+    padding: 5%;
+  }
+
+  .portadaMenu div h2 {
+    font-size: 5rem;
+    
+  }
+  .portadaMenu div h3 {
+    font-size: 2rem;
+    transform: translate(50px) translateY(30px);
+    
+  }
+  .portadaMenu img {
+    width: 50vw;
+    height: 50vh;
+   
+  }
+  .containerMenu { display: flex;
+  flex-direction: column;}
 }
 @media screen and (max-width: 775px) {
   .flexDivForm {
@@ -28,15 +80,31 @@
   }
   .formulario form {
     display: grid;
-    grid-template-columns: repeat(2, 15rem);
+    grid-template-columns: repeat(1, auto);
     margin-bottom: 2%;
+
+    width: 100%;
   }
   .botonEnviarFormulario input {
     margin-bottom: 10px;
   }
-.menuIndex div article { padding-bottom: 15%;}
-.imagenAside { width: 80%;
-padding-left: 30px;}
+
+  .menuIndex div article {
+    padding-bottom: 15%;
+  }
+  .imagenAside {
+    width: 80%;
+    padding-left: 30px;
+  }
+  .logoHeader-Y-Footer {
+    height: 12vh;
+    width: 15vw;
+  }
+  .portadaMenu img {
+    width: 60vw;
+    height: 30vh;
+   
+  }
 }
 
 @media screen and (max-width: 541px) {
@@ -44,5 +112,15 @@ padding-left: 30px;}
     display: grid;
     grid-template-columns: repeat(1, 20rem);
   }
-  .imagenPrincipal { height: 30vh; }
+  .imagenPrincipal {
+    height: 30vh;
+  }
+  .div-menu-take img {
+    width: 150px;
+    height: 150px;
+  }
+  .logoHeader-Y-Footer {
+    height: 10vh;
+    width: 20vw;
+  }
 }

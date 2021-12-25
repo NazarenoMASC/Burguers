@@ -1,7 +1,5 @@
 .formulario {
-  padding: 1%;
-  margin: 1%;
-  border: 0px;
+  padding: 5% 2%;
   text-align: center;
 }
 .formulario form {
@@ -10,7 +8,7 @@
   grid-auto-rows: 10rem;
   column-gap: 2rem;
   row-gap: 2rem;
-  padding-left: 20%;
+  padding-left: 15%;
 }
 .flexDivForm {
   display: flex;
@@ -19,10 +17,10 @@
   align-items: center;
 }
 .botonEnviarFormulario {
-  margin-left: 15%;
+  margin-left: 10%;
 }
 .botonEnviarFormulario input {
-  margin-right: 3%;
+  margin-right: 3%
 }
 .formulario label {
   display: block;
