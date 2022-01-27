@@ -1,24 +1,18 @@
 .SobreNosotros {
-    text-align: center;
-    font-weight: 800;
-    line-height: 5rem;
-    padding-top: 2%;
-  }
-  .parrafoSobreNosotros {
-    font-weight: 400;
-    text-align: center;
-    font-size: 100%;
-    margin-bottom: 2%;
-  }
-  
-  .fondoSobreNosotros {
-    background-image: url("../images/fondosobrenosotros.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 80vh;
-    width: 100%;
-    color: rgba(255, 255, 255, 2);
-    overflow: auto;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-  }
+  color: #06090e;
+  text-align: center;
+  font-weight: 500;
+  line-height: 5rem;
+  font-size: 3rem;
+  margin: 2%;
+  font-family: fantasy;
+}
+.parrafoSobreNosotros {
+  font-weight: 400;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0rem 3rem 3rem 3rem;
+  line-height: 2;
+  font-family: sans-serif;
+  margin: 0rem;
+}

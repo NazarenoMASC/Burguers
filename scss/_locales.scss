@@ -1,8 +1,23 @@
 .flexLocales {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-top: 4%;
-    margin-bottom: 10%;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 4%;
+  margin-bottom: 10%;
+  text-align: center;
+  font-weight: bolder;
+  font-family: fantasy;
+}
+.text-locales {
+  padding: 3%;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 800;
+  font-family: "Oswald", sans-serif;
+}
+.flexLocales p {
+  font-weight: 300;
+  padding: 3%;
+  margin: 2%;
+  text-align: center;
+}

@@ -4,14 +4,8 @@ body {
   font-family: "Open Sans", sans-serif;
   box-sizing: border-box; }
 
-h1 h2 h3 h4 h5 h6 {
-  font-family: "Noto Serif", serif; }
-
-section {
-  border: solid 2px black; }
-
 .fondoHeader-Y-Footer {
-  background-color: #161a1d; }
+  background-color: #06090e; }
 
 .logoHeader-Y-Footer {
   height: 20vh;
@@ -24,102 +18,108 @@ section {
   align-items: center;
   padding-right: 10%; }
 
+.header-menu {
+  font-size: 20px;
+  font-family: fantasy; }
+
 .imagenPrincipal {
   height: 80vh;
   width: 100%;
   border: none; }
 
 .SobreNosotros {
+  color: #06090e;
   text-align: center;
-  font-weight: 800;
+  font-weight: 500;
   line-height: 5rem;
-  padding-top: 2%; }
+  font-size: 3rem;
+  margin: 2%;
+  font-family: fantasy; }
 
 .parrafoSobreNosotros {
   font-weight: 400;
   text-align: center;
-  font-size: 100%;
-  margin-bottom: 2%; }
+  font-size: 1rem;
+  padding: 0rem 3rem 3rem 3rem;
+  line-height: 2;
+  font-family: sans-serif;
+  margin: 0rem; }
 
 .fondoSobreNosotros {
   background-image: url("../images/fondosobrenosotros.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  height: 80vh;
+  background-position: bottom;
   width: 100%;
-  color: white;
-  overflow: auto;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  min-height: 100vh;
+  font-family: "Oswald", sans-serif; }
 
 .fondoTitle {
   margin: 0%;
-  padding: 10% 5%;
-  font-weight: 800; }
+  padding: 5% 10%;
+  font-weight: bolder;
+  color: white;
+  font-size: 70px; }
 
 .fondoParrafo {
   margin: 0%;
-  font-size: 150%;
+  padding: 4%;
+  font-size: 30px;
   text-align: center;
-  font-weight: 400;
-  line-height: 5rem; }
-
-.containerMenu {
+  font-weight: 500;
+  line-height: 4rem;
   color: white;
-  display: grid;
-  grid-template-columns: repeat(3, 33.3%);
+  text-align: justify; }
+
+.flex-menu {
+  width: 100%;
+  height: 100%; }
+
+.container-menu {
+  width: 100%;
+  max-width: 1200px;
   height: 100%;
-  width: 100%;
-  background: linear-gradient(147deg, #fe8a39cc 0%, #fd3838 74%);
-  font-family: "Noto Serif", serif;
-  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto; }
+
+.card-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
+
+.container-menu .card-menu {
+  width: 330px;
+  height: 40rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  padding: 3%;
   text-align: center;
-  border: none; }
+  transition: all 0.25s; }
 
-.portadaMenu, .menuBurgers h4 {
-  background: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; }
+.container-menu .card-menu:hover {
+  transform: translateY(-3%);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
 
-.portadaMenu div h2, .menuBurgers h4 div h2 {
-  font-size: 10rem;
-  font-weight: bolder; }
+.container-menu .card-menu h3 {
+  padding: 1rem;
+  font-weight: 800;
+  font-family: "Oswald", sans-serif; }
 
-.portadaMenu img, .menuBurgers h4 img {
-  width: 30vw;
-  height: 50vh;
-  margin-bottom: 30%; }
+.container-menu .card-menu p {
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Segoe UI"; }
 
-.portadaMenu div h3, .menuBurgers h4 div h3 {
-  font-size: 5rem;
-  font-weight: bolder;
-  color: #fa6800cc;
-  transform: translate(80px) translateY(70px); }
-
-.menuBurgers {
-  padding: 5%; }
-
-.menuBurgers h4 {
-  font-size: 3rem;
-  font-weight: bolder; }
-
-.menuEspecial {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; }
-
-.menuEspecial div img {
-  margin-left: 20%;
-  width: 500px;
-  height: 500px; }
-
-.menuEspecial div:first-child {
-  height: 15rem;
-  background: white;
-  border-start-start-radius: 90px;
-  border-end-start-radius: 90px; }
+.container-menu .card-menu a {
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #0b1322e5; }
 
 .title-menu-take {
   padding: 2% 3%; }
@@ -159,7 +159,23 @@ section {
   flex-wrap: wrap;
   justify-content: space-around;
   padding-top: 4%;
-  margin-bottom: 10%; }
+  margin-bottom: 10%;
+  text-align: center;
+  font-weight: bolder;
+  font-family: fantasy; }
+
+.text-locales {
+  padding: 3%;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 800;
+  font-family: "Oswald", sans-serif; }
+
+.flexLocales p {
+  font-weight: 300;
+  padding: 3%;
+  margin: 2%;
+  text-align: center; }
 
 .formulario {
   padding: 5% 2%;
@@ -233,9 +249,9 @@ section {
   background-color: #55acee; }
 
 @media screen and (max-width: 1400px) {
-  .portadaMenu div h2, .menuBurgers h4 div h2 {
+  .portadaMenu div h2 {
     font-size: 7rem; }
-  .portadaMenu div h3, .menuBurgers h4 div h3 {
+  .portadaMenu div h3 {
     font-size: 3rem; }
   .fondoSobreNosotros {
     height: 100vh;
@@ -269,12 +285,12 @@ section {
     height: 15vh; }
   .formulario {
     padding: 5%; }
-  .portadaMenu div h2, .menuBurgers h4 div h2 {
+  .portadaMenu div h2 {
     font-size: 5rem; }
-  .portadaMenu div h3, .menuBurgers h4 div h3 {
+  .portadaMenu div h3 {
     font-size: 2rem;
     transform: translate(50px) translateY(30px); }
-  .portadaMenu img, .menuBurgers h4 img {
+  .portadaMenu img {
     width: 50vw;
     height: 50vh; }
   .containerMenu {
@@ -299,7 +315,7 @@ section {
   .logoHeader-Y-Footer {
     height: 12vh;
     width: 15vw; }
-  .portadaMenu img, .menuBurgers h4 img {
+  .portadaMenu img {
     width: 60vw;
     height: 30vh; } }
 

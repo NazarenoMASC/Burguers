@@ -2,12 +2,11 @@
   .portadaMenu div h2 {
     font-size: 7rem;
   }
-  .portadaMenu div h3 { font-size: 3rem;
-
-
-  } 
+  .portadaMenu div h3 {
+    font-size: 3rem;
+  }
   .fondoSobreNosotros {
-    height:100vh;
+    height: 100vh;
     font-weight: bolder;
     overflow: hidden;
   }
@@ -32,7 +31,6 @@
   body {
     width: 100%;
   }
- 
 
   .flexHeader {
     padding-right: 10%;
@@ -59,20 +57,19 @@
 
   .portadaMenu div h2 {
     font-size: 5rem;
-    
   }
   .portadaMenu div h3 {
     font-size: 2rem;
     transform: translate(50px) translateY(30px);
-    
   }
   .portadaMenu img {
     width: 50vw;
     height: 50vh;
-   
   }
-  .containerMenu { display: flex;
-  flex-direction: column;}
+  .containerMenu {
+    display: flex;
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 775px) {
   .flexDivForm {
@@ -103,7 +100,6 @@
   .portadaMenu img {
     width: 60vw;
     height: 30vh;
-   
   }
 }
 
