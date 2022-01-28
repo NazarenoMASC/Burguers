@@ -1,4 +1,6 @@
-.title-menu-take { padding: 2% 3%; }
+.title-menu-take {
+  padding: 2% 3%;
+}
 
 .container-menu-take {
   display: grid;
@@ -11,9 +13,17 @@
   height: 250px;
 }
 .div-menu-take {
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
   width: 100%;
   display: flex;
-  padding: 3% 2%;
+  margin: 3% 2%;
+  transition: all 0.25s;
+}
+.div-menu-take:hover {
+  transform: translateY(-3%);
+  box-shadow: 0 16px 16px rgba(0, 0, 0, 0.2);
 }
 .flex-menu-take {
   padding-left: 3%;
@@ -27,7 +37,8 @@
 .div-precio-btn {
   display: flex;
   justify-content: space-between;
-
 }
-.div-precio-btn button { border: 1rem;
-border-radius: 10px;}
+.div-precio-btn button {
+  border: 1rem;
+  border-radius: 10px;
+}

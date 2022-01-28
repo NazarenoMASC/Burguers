@@ -1,10 +1,4 @@
 @media screen and (max-width: 1400px) {
-  .portadaMenu div h2 {
-    font-size: 7rem;
-  }
-  .portadaMenu div h3 {
-    font-size: 3rem;
-  }
   .fondoSobreNosotros {
     height: 100vh;
     font-weight: bolder;
@@ -28,10 +22,6 @@
 }
 
 @media screen and (max-width: 1016px) {
-  body {
-    width: 100%;
-  }
-
   .flexHeader {
     padding-right: 10%;
   }
@@ -54,24 +44,16 @@
   .formulario {
     padding: 5%;
   }
-
-  .portadaMenu div h2 {
-    font-size: 5rem;
-  }
-  .portadaMenu div h3 {
-    font-size: 2rem;
-    transform: translate(50px) translateY(30px);
-  }
-  .portadaMenu img {
-    width: 50vw;
-    height: 50vh;
-  }
-  .containerMenu {
-    display: flex;
-    flex-direction: column;
-  }
 }
 @media screen and (max-width: 775px) {
+  .fondoTitle {
+    font-size: 55px;
+  }
+  .fondoParrafo {
+    text-align: justify;
+    font-size: 30px;
+    line-height: 3.5rem;
+  }
   .flexDivForm {
     width: 100%;
   }
@@ -86,9 +68,6 @@
     margin-bottom: 10px;
   }
 
-  .menuIndex div article {
-    padding-bottom: 15%;
-  }
   .imagenAside {
     width: 80%;
     padding-left: 30px;
@@ -96,10 +75,6 @@
   .logoHeader-Y-Footer {
     height: 12vh;
     width: 15vw;
-  }
-  .portadaMenu img {
-    width: 60vw;
-    height: 30vh;
   }
 }
 
@@ -118,5 +93,9 @@
   .logoHeader-Y-Footer {
     height: 10vh;
     width: 20vw;
+  }
+  .fondoParrafo {
+    line-height: 2rem;
+    font-size: 25px;
   }
 }
